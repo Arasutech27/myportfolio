@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Arasu — Network &amp; Systems Engineer</title>
+<meta name="description" content="Portfolio of M. Arasu, Network & Systems Engineer — networking fundamentals, Windows/Linux administration, and IT support.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="nav-id" href="#top">M. ARASU</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="mailto:m.arasukvt@gmail.com">Get in touch</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-kicker">Network &amp; Systems Engineer</p>
+      <h1>Arasu keeps networks<br>talking to each other<br><span>— and keeps them talking well.</span></h1>
+      <p class="hero-lede">MCA graduate working as an IT Support Engineer at Accel IT Services, with a solid grip on OSI layers, TCP/IP, VLANs and routing, plus hands-on Windows and Linux administration. I troubleshoot the connection, document what I find, and escalate what needs a bigger fix.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="#projects" class="btn btn-ghost">See projects</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>7.90</dt><dd>MCA CGPA</dd></div>
+        <div><dt>OSI L1–L7</dt><dd>Working fluency</dd></div>
+        <div><dt>Win / Linux</dt><dd>Install &amp; admin</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero-graphic" aria-hidden="true">
+      <svg viewBox="0 0 520 520" class="topology">
+        <g class="links">
+          <line x1="260" y1="260" x2="90" y2="120"></line>
+          <line x1="260" y1="260" x2="430" y2="110"></line>
+          <line x1="260" y1="260" x2="80" y2="360"></line>
+          <line x1="260" y1="260" x2="420" y2="400"></line>
+          <line x1="260" y1="260" x2="260" y2="460"></line>
+          <line x1="90" y1="120" x2="430" y2="110"></line>
+          <line x1="80" y1="360" x2="420" y2="400"></line>
+        </g>
+        <circle class="packet" r="5">
+          <animateMotion dur="4.5s" repeatCount="indefinite"
+            path="M260,260 L90,120 L430,110 L260,260 L420,400 L80,360 L260,260 L260,460" />
+        </circle>
+        <circle class="packet packet-2" r="4">
+          <animateMotion dur="6s" repeatCount="indefinite" begin="1.2s"
+            path="M260,460 L260,260 L80,360 L420,400 L260,260 L430,110 L90,120 L260,260" />
+        </circle>
+        <g class="node node-router">
+          <rect x="205" y="205" width="110" height="110" rx="14"></rect>
+          <text x="260" y="252" text-anchor="middle">RTR</text>
+          <text x="260" y="272" text-anchor="middle" class="node-sub">10.0.0.1</text>
+        </g>
+        <g class="node node-small"><circle cx="90" cy="120" r="30"></circle><text x="90" y="125" text-anchor="middle">SW1</text></g>
+        <g class="node node-small"><circle cx="430" cy="110" r="30"></circle><text x="430" y="115" text-anchor="middle">SW2</text></g>
+        <g class="node node-small"><circle cx="80" cy="360" r="30"></circle><text x="80" y="365" text-anchor="middle">PC</text></g>
+        <g class="node node-small"><circle cx="420" cy="400" r="30"></circle><text x="420" y="405" text-anchor="middle">SRV</text></g>
+        <g class="node node-small"><circle cx="260" cy="460" r="30"></circle><text x="260" y="465" text-anchor="middle">FW</text></g>
+      </svg>
+      <div class="hero-photo">
+        <img src="images/profile.jpg" alt="Portrait of M. Arasu">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <h2>About</h2>
+      <p class="section-lede">Pursuing an MCA at Bharathidasan University (2024–2026) after a BCA at the same university, Arasu supports first-line IT issues by day and studies networking and systems concepts in depth alongside it.</p>
+    </div>
+    <div class="about-grid">
+      <p>I'm comfortable moving between the conceptual and the practical: explaining why a switch floods a frame it doesn't recognise, and then actually setting up a Windows or Ubuntu box to test it. At Accel IT Services, that shows up as first-level troubleshooting of desktops, laptops, servers and network connectivity — diagnosing the problem, documenting it clearly, and escalating the cases that need deeper network expertise.</p>
+      <p>A Python background from academic projects means I lean on scripting rather than repeating manual steps, and a growing interest in packet capture and routing protocols is pushing me further into network administration and infrastructure security.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS — OSI stack -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <h2>Technical skills</h2>
+      <p class="section-lede">Grounded in the OSI model, from cabling to application-layer protocols.</p>
+    </div>
+
+    <div class="osi">
+      <div class="osi-layer" style="--i:0">
+        <span class="osi-num">L7</span>
+        <span class="osi-name">Application</span>
+        <span class="osi-detail">DNS, DHCP — protocols &amp; port numbers</span>
+      </div>
+      <div class="osi-layer" style="--i:1">
+        <span class="osi-num">L6–5</span>
+        <span class="osi-name">Presentation / Session</span>
+        <span class="osi-detail">Remote support — AnyDesk, TeamViewer</span>
+      </div>
+      <div class="osi-layer" style="--i:2">
+        <span class="osi-num">L4</span>
+        <span class="osi-name">Transport</span>
+        <span class="osi-detail">TCP/IP fundamentals</span>
+      </div>
+      <div class="osi-layer" style="--i:3">
+        <span class="osi-num">L3</span>
+        <span class="osi-name">Network</span>
+        <span class="osi-detail">IP addressing, routers, RIP &amp; OSPF (learning)</span>
+      </div>
+      <div class="osi-layer" style="--i:4">
+        <span class="osi-num">L2</span>
+        <span class="osi-name">Data Link</span>
+        <span class="osi-detail">VLAN, trunk/access ports, STP, VTP, MAC table &amp; switch learning</span>
+      </div>
+      <div class="osi-layer" style="--i:5">
+        <span class="osi-num">L1</span>
+        <span class="osi-name">Physical</span>
+        <span class="osi-detail">ARP, hardware diagnosis &amp; cabling</span>
+      </div>
+    </div>
+
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h3>Systems administration</h3>
+        <ul>
+          <li>Windows &amp; Linux (Ubuntu) — install and setup</li>
+          <li>Linux — basic administration</li>
+          <li>User account &amp; access management concepts</li>
+          <li>Hardware diagnosis &amp; troubleshooting</li>
+          <li>System monitoring &amp; performance awareness</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Scripting &amp; tools</h3>
+        <ul>
+          <li>Python — application development &amp; scripting</li>
+          <li>MySQL — database design &amp; queries</li>
+          <li>Wireshark packet capture (learning)</li>
+          <li>Basic firewall &amp; network device troubleshooting</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Soft skills</h3>
+        <ul>
+          <li>Troubleshooting &amp; problem-solving</li>
+          <li>Customer handling &amp; satisfaction</li>
+          <li>Clear technical documentation</li>
+          <li>Team collaboration, flexible shifts</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="section-head">
+      <h2>Experience</h2>
+      <p class="section-lede">One role, a wide range of tickets.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <h3>IT Support Engineer</h3>
+            <span class="timeline-date">Accel IT Services</span>
+          </div>
+          <ul>
+            <li>Provide first-level troubleshooting of desktops, laptops, servers and network connectivity issues.</li>
+            <li>Support Windows and Linux OS installation, configuration and basic administration tasks.</li>
+            <li>Diagnose and resolve hardware and connectivity issues, escalating complex network cases per defined process.</li>
+            <li>Handle phone-based customer support, documenting interactions and resolutions for tracking.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p class="section-lede">Academic builds that put the Python and MySQL skills to work.</p>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <span class="project-tag">Full-stack</span>
+        <h3>E-Commerce Web Application</h3>
+        <p>A full-stack e-commerce application built with Python, covering user authentication, product management and order processing on a MySQL backend.</p>
+        <ul class="project-stack">
+          <li>Python</li><li>MySQL</li><li>Auth</li>
+        </ul>
+      </article>
+      <article class="project-card">
+        <span class="project-tag">Machine learning</span>
+        <h3>AI-Based Immune Disease Detection System</h3>
+        <p>A machine learning system in Python that predicts immune-related diseases from processed data, sharpening model-building, accuracy tuning and structured documentation skills.</p>
+        <ul class="project-stack">
+          <li>Python</li><li>ML</li><li>Data processing</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education" id="education">
+    <div class="section-head">
+      <h2>Education</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <h3>Master of Computer Applications</h3>
+        <p class="edu-school">Bharathidasan University, Tiruchirappalli</p>
+        <p class="edu-meta">2024 – 2026 &nbsp;·&nbsp; CGPA 7.90</p>
+      </div>
+      <div class="edu-card">
+        <h3>Bachelor of Computer Applications</h3>
+        <p class="edu-school">Bharathidasan University, Tiruchirappalli</p>
+        <p class="edu-meta">2021 – 2024 &nbsp;·&nbsp; CGPA 6.81</p>
+      </div>
+    </div>
+    <p class="languages"><strong>Languages —</strong> English, Tamil</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <h2>Let's connect the dots.</h2>
+      <p>Open to network administration, systems support and infrastructure roles. Based in Ariyalur, willing to work flexible shifts.</p>
+      <div class="contact-links">
+        <a href="mailto:m.arasukvt@gmail.com">m.arasukvt@gmail.com</a>
+        <a href="tel:+919629172192">+91 96291 72192</a>
+        <a href="https://www.linkedin.com/in/arasu-m-63a85a297" target="_blank" rel="noopener">linkedin.com/in/arasu-m-63a85a297</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 M. Arasu</span>
+  <span>Ariyalur, Tamil Nadu</span>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
