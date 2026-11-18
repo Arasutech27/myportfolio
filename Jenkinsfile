@@ -2,8 +2,13 @@
 pipeline {
     agent any
 
+    // Check GitHub every 1 minute
+    triggers {
+        pollSCM('*/1 * * * *')
+    }
+
     environment {
-        IMAGE_NAME = 'YOUR_DOCKERHUB_USERNAME/myportfolio'
+        IMAGE_NAME = 'arasu27/myportfolio'
         CONTAINER_NAME = 'madhan-portfolio'
         HOST_PORT = '8081'
     }
